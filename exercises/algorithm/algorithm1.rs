@@ -35,7 +35,7 @@ impl<T> Default for LinkedList<T> {
     }
 }
 
-impl<T> LinkedList<T> {
+impl<T:Ord+Clone> LinkedList<T> {
     pub fn new() -> Self {
         Self {
             length: 0,
