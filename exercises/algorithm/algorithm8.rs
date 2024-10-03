@@ -51,13 +51,13 @@ impl<T> Default for Queue<T> {
     }
 }
 
-pub struct myStack<T>
+pub struct MyStack<T>
 {
 	//TODO
 	q1:Queue<T>,
 	q2:Queue<T>
 }
-impl<T> myStack<T> {
+impl<T> MyStack<T> {
     pub fn new() -> Self {
         Self {
 			//TODO
